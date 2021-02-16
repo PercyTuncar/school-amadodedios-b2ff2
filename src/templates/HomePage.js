@@ -59,7 +59,7 @@ const HomePage = ({ data: { page } }) => (
               </div>
             </div>
           </div>
-        <ValoresDeLaInstitucion/>
+          
         </div>	
         <div class="acm-stats style-1">
               <ul>
