@@ -38,7 +38,7 @@ const HomePage = ({ data: { page } }) => (
        <div className="aniversarioImg">
          <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/21.jpg?alt=media&token=03fa9b20-28b7-4e13-aedf-875fe1524373" alt='30 años del colegio amado de dios'/>
        </div>
-       <ObjetivosPEI/>
+
      
        <section className='container-fluid'>
         <div className='row m-10-hor valoreshome'>
