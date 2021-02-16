@@ -69,19 +69,19 @@ const HomePage = ({ data: { page } }) => (
                 <li class="stats-asset">
                   <h1 class="stats-item-counter">Año Escolar 2021</h1>
                           <span class="stats-subject"> <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                          Matrícula Abierta 👇 </a>
+                          Matrícula Abierta <span role="img" aria-label="donut">👇</span>  </a>
                           </span>
                           <div className="collapse tarjeta" id="collapseExample">
                             <div className="card card-body">
                             <div className="card card-body">
                             <span className="stats-description">Somos Amadinos, más de 30 años al servicio de la educación. de Tradición y Excelencia Educativa. <br/><br/>
-                                          <a href="#contacto"> Contáctenos » 👇</a>
+                                          <a href="#contacto"> Contáctenos » <span role="img" aria-label="donut">👇</span> </a>
                                           </span>
                             </div>
                             <li class="stats-asset">
                                 <h1 class="stats-item-counter"> Realiza Pagos	</h1>
                                 <span class="stats-subject">Pensado en su comodidad</span>
-                                <a href="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Comunicado%20051-ADD-2020.pdf?alt=media&token=d690fcd2-47ee-4650-9016-a683d56a8535" target="_blank"> Costo, matrícula y pensión 2021 haciendo click aquí </a>
+                                <a href="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/Comunicado%20051-ADD-2020.pdf?alt=media&token=d690fcd2-47ee-4650-9016-a683d56a8535" target="_blank" rel="noopener noreferrer"> Costo, matrícula y pensión 2021 haciendo click aquí </a>
                             </li>
                             </div>
                           </div>
