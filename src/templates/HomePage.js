@@ -7,6 +7,9 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import ReadMoreReact from 'read-more-react';
 import ObjetivosPEI from '../components/ObjetivosPEI';
+import ValoresDeLaInstitucion from '../components/ValoresDeLaInstitucion';
+import MensajeDeLaDirectoa from'../components/MensajeDeLaDirectora';
+import Footer from '../components/Footer'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
@@ -66,7 +69,7 @@ const HomePage = ({ data: { page } }) => (
               </div>
             </div>
           </div>
-
+          <ValoresDeLaInstitucion/>
         </div>	
         <div class="acm-stats style-1">
               <ul>
@@ -93,7 +96,8 @@ const HomePage = ({ data: { page } }) => (
                     </ul>
         </div>		
     </section>
-
+    <MensajeDeLaDirectoa/>
+        <Footer />
      </div>
   </Layout>
 )

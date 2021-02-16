@@ -8,3 +8,31 @@
   color: black;
   text-decoration: none;
 }
+
+.amado span{
+  color: #fff;
+background: #0FBF61;
+padding: 5px;
+border-radius: 5px;
+} .content >p{
+  font-size: 14px !important;
+ }
+.title span{
+  font-size: 14px !important;
+}
+
+.content > .link > p{
+  font-size: 12px !important;
+}
+.subfooter .content {
+  font-size: 12px !important;
+}
+.subfooter {
+  font-size: 12px !important;
+  margin-top: 10px;
+  background: #282D31;
+}
+
+#contacto{
+  border-top: 1px solid #d3d6d8;
+}
