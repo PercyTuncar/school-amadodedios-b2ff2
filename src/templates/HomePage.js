@@ -5,6 +5,8 @@ import Slider from '../components/sliderhome';
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import ReadMoreReact from 'read-more-react';
+import ObjetivosPEI from '../components/ObjetivosPEI';
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
@@ -33,16 +35,17 @@ const HomePage = ({ data: { page } }) => (
           <div  className='col-12 text-center arriba ' >
             <div className='heading'><h1>Nuestra propuesta pedagógica</h1> </div>
                   <div className='propuesta'>
-                  <h1>test from localhost :3</h1>
-                  <h1>test from localhost 1 :3</h1>
-                  <h1>test from localhost 2 :3</h1>
-                  <h1>test from localhost 3 :3</h1>
+                    <ReadMoreReact   text={"La propuesta pedagógica de La Institución Educativa Privada “Amado de Dios” es: tener como propósito mejorar el nivel de aprendizaje, según los resultados precisados en el diagnóstico que responde a las características, necesidades e intereses de los estudiantes y la implementación del enfoque formatico, Desde este enfoque, la evaluación es un proceso sistemático en el que se recoge y valora información relevante acerca del nivel de  desarrollo de las competencias en cada estudiante, con el fin de contribuir oportunamente su aprendizaje, acción pedagógica expresada en la implementación del Currículo Nacional de la Educación Básica (CNEB) Y EL PCI de la institución. Se plantean los compromisos de gestión escolar, los enfoques transversales, las orientaciones para el proceso de enseñanza y aprendizaje, teorías pedagógicas, las orientaciones pedagógicas para el desarrollo de competencias, los principios psicopedagógicos, los perfiles de los actores, la diversificación curricular, demandas educativas y sistema de evaluación, elementos que guiarán y orientarán el proceso de enseñanza, aprendizaje y la toma de decisiones sobre como mejorar las condiciones de aprendizaje que parten de los saberes y valores de la cultura local y los articulan con nuevos conocimientos."}
+                                  min={80}
+                                  ideal={100}
+                                  max={200}
+                                  readMoreText="haga clic aquí para leer más..."/>
                   </div>
           </div>
        <div className="aniversarioImg">
          <img src="https://firebasestorage.googleapis.com/v0/b/amado-de-dios.appspot.com/o/21.jpg?alt=media&token=03fa9b20-28b7-4e13-aedf-875fe1524373" alt='30 años del colegio amado de dios'/>
        </div>
-
+       <ObjetivosPEI/>
      
        <section className='container-fluid'>
         <div className='row m-10-hor valoreshome'>
