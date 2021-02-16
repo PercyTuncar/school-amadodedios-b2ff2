@@ -33,6 +33,9 @@ const HomePage = ({ data: { page } }) => (
             <div className='heading'><h1>Nuestra propuesta pedagógica</h1> </div>
                   <div className='propuesta'>
                   <h1>test from localhost :3</h1>
+                  <h1>test from localhost 1 :3</h1>
+                  <h1>test from localhost 2 :3</h1>
+                  <h1>test from localhost 3 :3</h1>
                   </div>
           </div>
        <div className="aniversarioImg">
