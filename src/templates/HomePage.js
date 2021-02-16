@@ -59,7 +59,7 @@ const HomePage = ({ data: { page } }) => (
               </div>
             </div>
           </div>
-          
+
         </div>	
         <div class="acm-stats style-1">
               <ul>
@@ -86,9 +86,7 @@ const HomePage = ({ data: { page } }) => (
                     </ul>
         </div>		
     </section>
-        <MensajeDeLaDirectoa/>
-        <Testimony/>
-        <Footer />
+
      </div>
   </Layout>
 )
