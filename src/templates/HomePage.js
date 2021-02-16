@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
+import Slider from '../components/sliderhome';
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
@@ -27,7 +28,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page } }) => (
   <Layout meta={page.frontmatter.meta || false}>
-    
+     <Slider />
      <div className='homePage'>
           <div  className='col-12 text-center arriba ' >
             <div className='heading'><h1>Nuestra propuesta pedagógica</h1> </div>
