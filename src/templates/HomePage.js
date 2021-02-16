@@ -96,6 +96,7 @@ const HomePage = ({ data: { page } }) => (
      </div>
   </Layout>
 )
+
 export default HomePage
 
 export const pageQuery = graphql`
