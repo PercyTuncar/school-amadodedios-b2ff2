@@ -25,9 +25,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page } }) => (
-  <Layout meta={page.frontmatter.meta || false}>
-HomePageTemplate
-  </Layout>
+Hla
 )
 
 export default HomePage
