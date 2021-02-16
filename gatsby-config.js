@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: 'https://yellowcake.netlify.com'
   },
   plugins: [
+    'gatsby-plugin-dark-mode',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
