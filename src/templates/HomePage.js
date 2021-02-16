@@ -32,7 +32,7 @@ const HomePage = ({ data: { page } }) => (
           <div  className='col-12 text-center arriba ' >
             <div className='heading'><h1>Nuestra propuesta pedagógica</h1> </div>
                   <div className='propuesta'>
-                  
+                  <h1>test from localhost :3</h1>
                   </div>
           </div>
        <div className="aniversarioImg">
