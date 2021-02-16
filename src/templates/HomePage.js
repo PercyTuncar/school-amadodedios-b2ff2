@@ -27,7 +27,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page } }) => (
   <Layout meta={page.frontmatter.meta || false}>
-     <Slider />
+   
      <div className='homePage'>
           <div  className='col-12 text-center arriba ' >
             <div className='heading'><h1>Nuestra propuesta pedagógica</h1> </div>
