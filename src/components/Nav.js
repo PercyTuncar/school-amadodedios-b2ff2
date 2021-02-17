@@ -5,9 +5,6 @@ import { Menu, X } from 'react-feather'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import './Nav.css'
 
-
-
-
 export class Navigation extends Component {
   state = {
     active: false,

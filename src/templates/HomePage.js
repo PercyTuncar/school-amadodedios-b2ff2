@@ -97,7 +97,7 @@ const HomePage = ({ data: { page } }) => (
         </div>		
     </section>
     <MensajeDeLaDirectoa/>
-        <Footer />
+   
      </div>
   </Layout>
 )
