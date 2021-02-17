@@ -44,6 +44,7 @@
     "postcss-preset-env": "^6.7.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
+    "react-accessible-accordion": "^3.3.4",
     "react-animated-slider": "^2.0.0",
     "react-dom": "^16.11.0",
     "react-feather": "^2.0.3",
