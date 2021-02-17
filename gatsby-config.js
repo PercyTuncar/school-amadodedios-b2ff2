@@ -10,6 +10,19 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
+      resolve: `gatsby-source-cloudinary`,
+      options: {
+        cloudName: `amadodedios`,
+        apiKey: `986222159133392`,
+        apiSecret: `MkaOuYDz0OoVrLs8jcMq1CXR79k`,
+        resourceType: `image`,
+        prefix: `galeria/` ,
+        context: true,
+        tags: true,
+        maxResults: 50
+      }
+    },
+    {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         /*id: 'GTM-add_your_tag_here',*/
