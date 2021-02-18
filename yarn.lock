@@ -2694,9 +2694,9 @@
     "uri-js" "^4.2.2"
 
 "ajv@^7.0.0":
-  "integrity" "sha512-svS9uILze/cXbH0z2myCK2Brqprx/+JJYK5pHicT/GQiBfzzhUVAIT6MwqJg8y4xV/zoGsUeuPuwtoiKSGE15g=="
-  "resolved" "https://registry.npmjs.org/ajv/-/ajv-7.1.0.tgz"
-  "version" "7.1.0"
+  "integrity" "sha512-ga/aqDYnUy/o7vbsRTFhhTsNeXiYb5JWDIcRIeZfwRNCefwjNTVYCGdGSUrEmiu3yDK3vFvNbgJxvrQW4JXrYQ=="
+  "resolved" "https://registry.npmjs.org/ajv/-/ajv-7.1.1.tgz"
+  "version" "7.1.1"
   dependencies:
     "fast-deep-equal" "^3.1.1"
     "json-schema-traverse" "^1.0.0"
@@ -4808,9 +4808,9 @@
   "version" "0.1.1"
 
 "copy-text-to-clipboard@^3.0.0":
-  "integrity" "sha512-c3pWBUzRN/ek5By3pHFBnYNrlcczsCKee7jrBYLjkPpO2ps9ZjH5Huo4+NHrvsYf5uAmA35r+r+eVUKG6IVdGA=="
-  "resolved" "https://registry.npmjs.org/copy-text-to-clipboard/-/copy-text-to-clipboard-3.0.0.tgz"
-  "version" "3.0.0"
+  "integrity" "sha512-rvVsHrpFcL4F2P8ihsoLdFHmd404+CMg71S756oRSeQgqk51U3kicGdnvfkrxva0xXH92SjGS62B0XIJsbh+9Q=="
+  "resolved" "https://registry.npmjs.org/copy-text-to-clipboard/-/copy-text-to-clipboard-3.0.1.tgz"
+  "version" "3.0.1"
 
 "copy-webpack-plugin@^5.1.2":
   "integrity" "sha512-Uh7crJAco3AjBvgAy9Z75CjK8IG+gxaErro71THQ+vv/bl4HaQcpkexAY8KVW/T6D2W2IRr+couF/knIRkZMIQ=="
@@ -11607,10 +11607,10 @@
   "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
 
-"netlify-cms-app@^2.9.0", "netlify-cms-app@^2.9.7":
-  "integrity" "sha512-Vgy/M98xIKqEb1S27zdGBzAtstQV3XvVuclsw2kHqWgvk8CVxwcYMDiApGfVjb9ygxg4+nIjhCEyO6Q+rTW9vg=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-app/-/netlify-cms-app-2.14.22.tgz"
-  "version" "2.14.22"
+"netlify-cms-app@^2.14.23", "netlify-cms-app@^2.9.0":
+  "integrity" "sha512-0a9Q4Yrnnrp+SZal2Ppi4d69EnVfyEdKBI7dNPgUVPY1BwPnB3kq+BYuoeU5wpttIjlDLEZoMKxrJHlYYjdNQA=="
+  "resolved" "https://registry.npmjs.org/netlify-cms-app/-/netlify-cms-app-2.14.23.tgz"
+  "version" "2.14.23"
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
@@ -11623,7 +11623,7 @@
     "netlify-cms-backend-github" "^2.11.8"
     "netlify-cms-backend-gitlab" "^2.9.8"
     "netlify-cms-backend-test" "^2.10.6"
-    "netlify-cms-core" "^2.38.1"
+    "netlify-cms-core" "^2.38.2"
     "netlify-cms-editor-component-image" "^2.6.7"
     "netlify-cms-lib-auth" "^2.3.0"
     "netlify-cms-lib-util" "^2.12.3"
@@ -11705,10 +11705,10 @@
   "resolved" "https://registry.npmjs.org/netlify-cms-backend-test/-/netlify-cms-backend-test-2.10.6.tgz"
   "version" "2.10.6"
 
-"netlify-cms-core@^2.38.1":
-  "integrity" "sha512-Qtny19LEyItto7g636BBeLL/ZNzYNtdd50p3eqUxcXQF38IFYEXXo5xnbxDWaoDB8U9+FUGCo0fRFAaoNC2lJg=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-core/-/netlify-cms-core-2.38.1.tgz"
-  "version" "2.38.1"
+"netlify-cms-core@^2.38.2":
+  "integrity" "sha512-84WBcR+6T3UIyTBona4pSYTQvqjor1oUE1cDpJpRSPCI0tDYM22QUpwFDkXpteTZOwaAFUjhGdLXQVwUX0VEdQ=="
+  "resolved" "https://registry.npmjs.org/netlify-cms-core/-/netlify-cms-core-2.38.2.tgz"
+  "version" "2.38.2"
   dependencies:
     "@iarna/toml" "2.2.5"
     "ajv" "^7.0.0"
