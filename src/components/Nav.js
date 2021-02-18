@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Location } from '@reach/router'
 import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import './Nav.css'
 
 export class Navigation extends Component {
@@ -57,8 +56,9 @@ export class Navigation extends Component {
 
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
-        <div className="Nav--Container container">
-          <Link className="logoamadodedios"
+        <div className="Nav--Container logoamadodedios container">
+          <Link
+            className="logoamadodedios"
             to="/"
             onClick={this.handleLinkClick}
             onKeyDown={this.handleLinkKeyDown}
@@ -66,7 +66,7 @@ export class Navigation extends Component {
             aria-label="Navigation"
             role="button"
           >
-          <p>AMADO DE <span>DIOS</span></p>
+          <p>AMADO DE <span className="dios">DIOS</span></p>
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">INICIO</NavLink>
@@ -126,18 +126,7 @@ export class Navigation extends Component {
 {/* 
             <NavLink to="/default/">Default</NavLink>
             <NavLink to="/contact/">Contact</NavLink> */}
-             <ThemeToggler>
-              {({ theme, toggleTheme }) => (
-                <label>
-                  <input
-                    type="checkbox"
-                    className="cm-toggle"
-                    onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                    checked={theme === 'dark'}
-                     />{' '}
-                </label>
-              )}
-            </ThemeToggler>
+       
           </div>
           <button
             className="Button-blank Nav--MenuButton"

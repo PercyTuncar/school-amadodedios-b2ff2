@@ -9,8 +9,7 @@ import ReadMoreReact from 'read-more-react';
 import ObjetivosPEI from '../components/ObjetivosPEI';
 import ValoresDeLaInstitucion from '../components/ValoresDeLaInstitucion';
 import MensajeDeLaDirectoa from'../components/MensajeDeLaDirectora';
-import Footer from '../components/Footer'
-
+import DarkMode from '../components/DarkMode'
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
@@ -97,7 +96,7 @@ const HomePage = ({ data: { page } }) => (
         </div>		
     </section>
     <MensajeDeLaDirectoa/>
-   
+   <DarkMode/>
      </div>
   </Layout>
 )

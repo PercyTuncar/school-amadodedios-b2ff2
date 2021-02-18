@@ -1,13 +1,15 @@
 :root {
   --primary: #192229;
   --secondary: #000;
-  --lightGrey: #FAFDFF;
+  --lightGrey: #FBFBFE;
   --midGrey: #ffee00;
   --darkGrey: #272727;
   --danger: #ff3d3d;
   --font-primary: 'Open Sans', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
+  --textDarkTitle:#282D31;
+  --textDark: #53575A;
 }
 
 ::-webkit-scrollbar {
@@ -67,6 +69,7 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+  color: var(--textDarkTitle);
 }
 
 pre {
@@ -123,7 +126,12 @@ blockquote {
 .dark h6 {
   color: white;
 }
-
+.logoamadodedios{
+  width: 100%;
+}
+.libro{
+  font-size: 8px;
+}
 .relative {
   position: relative;
 }
@@ -184,7 +192,7 @@ blockquote {
 }
 
 .container {
-  max-width: 1111px;
+  max-width: 100%;
   width: 90%;
   margin: 0 auto;
 }
@@ -419,6 +427,16 @@ section {
   justify-content: center;
 }
 /*navbar*/
+.Nav{
+  color: var(--textDark);
+  border-bottom: none;
+  font-size: 13px;
+}
+.dark .Nav{
+  color: var(--lightGrey);
+  background-color: #212E36;;
+}
+
 .navbar {
   padding: 20px 0;
   position: absolute;
@@ -455,7 +473,7 @@ section {
   transition: all 0.3s ease;
 }
 .navbar a.active {
-  color: #0FBF61 !important;
+  color: #0FBF61;
   transition: all 0.3s ease;
 }
 .navbar a.active:before {
@@ -1724,3 +1742,6 @@ footer .footer-col .content .socialicon:hover {
   width: 60%;
   margin-left: 20%;
 }
+
+
+
