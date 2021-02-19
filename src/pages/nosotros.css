@@ -1,0 +1,21 @@
+.mainbreadcumb img{
+    width: 100%;
+}
+.container-fluid img{
+    width: 100%;
+    padding: 15%;
+}
+.homebread img{
+    width: 100%;
+    padding: 15%;
+}
+
+.nosotrosTexto p{
+    font-size: 15px;
+}
+.nosotrosTexto img{
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.insigniaNosotros img{
+    padding: 0%;
+}

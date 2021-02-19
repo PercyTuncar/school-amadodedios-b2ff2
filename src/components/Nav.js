@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { Location } from '@reach/router'
 import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
-import Logo from './Logo'
-
 import './Nav.css'
 
 export class Navigation extends Component {
@@ -39,7 +37,6 @@ export class Navigation extends Component {
   }
   render() {
     const { active } = this.state,
-      { subNav } = this.props,
       NavLink = ({ to, className, children, ...props }) => (
         <Link
           to={to}
@@ -59,8 +56,9 @@ export class Navigation extends Component {
 
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
-        <div className="Nav--Container container">
+        <div className="Nav--Container logoamadodedios container">
           <Link
+            className="logoamadodedios"
             to="/"
             onClick={this.handleLinkClick}
             onKeyDown={this.handleLinkKeyDown}
@@ -68,11 +66,14 @@ export class Navigation extends Component {
             aria-label="Navigation"
             role="button"
           >
-            <Logo />
+          <p>AMADO DE <span className="dios">DIOS</span></p>
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
+            <NavLink to="/">INICIO</NavLink>
+            <NavLink to="/nosotros/">NOSOTROS</NavLink>
+            <NavLink to="/historia/">HISTORIA</NavLink>
+            <NavLink to="/blog/">NOTICIAS</NavLink>
+            <NavLink to="/galeria/">GALERÍA</NavLink>
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -81,7 +82,9 @@ export class Navigation extends Component {
               <span
                 className={`NavLink Nav--GroupParent ${
                   this.props.location.pathname.includes('posts') ||
-                  this.props.location.pathname.includes('blog') ||
+                  this.props.location.pathname.includes('inicial') ||
+                  this.props.location.pathname.includes('primaria') ||
+                  this.props.location.pathname.includes('secundaria') ||
                   this.props.location.pathname.includes('post-categories')
                     ? 'active'
                     : ''
@@ -92,12 +95,18 @@ export class Navigation extends Component {
                 aria-label="Navigation"
                 role="button"
               >
-                Blog
+                NIVELES
                 <div className="Nav--GroupLinks">
-                  <NavLink to="/blog/" className="Nav--GroupLink">
-                    All Posts
+                  <NavLink to="/inicial/" className="Nav--GroupLink">
+                    Inicial
                   </NavLink>
-                  {subNav.posts.map((link, index) => (
+                  <NavLink to="/primaria/" className="Nav--GroupLink">
+                    Primaria
+                  </NavLink>
+                  <NavLink to="/secundaria/" className="Nav--GroupLink">
+                    Secundaria
+                  </NavLink>
+                  {/* {subNav.posts.map((link, index) => (
                     <NavLink
                       to={link.slug}
                       key={'posts-subnav-link-' + index}
@@ -105,12 +114,19 @@ export class Navigation extends Component {
                     >
                       {link.title}
                     </NavLink>
-                  ))}
+                  ))} */}
                 </div>
               </span>
+
+          
             </div>
+           
+
+            <NavLink className="libro" to="/librodereclamaciones/">LIBRO DE RECLAMACIONES</NavLink>
+{/* 
             <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
+            <NavLink to="/contact/">Contact</NavLink> */}
+       
           </div>
           <button
             className="Button-blank Nav--MenuButton"

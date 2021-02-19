@@ -1,0 +1,12 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.testimony .blockquote p{
+    font-size: 14px;
+}
+
+.school{
+    border:1px solid red;
+    width: 50%;
+    margin-left: 25%;
+}
+

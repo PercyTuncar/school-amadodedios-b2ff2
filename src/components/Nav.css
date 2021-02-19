@@ -47,7 +47,7 @@
 .NavLink:hover,
 .NavLink.active,
 .NavLink:focus {
-  color: var(--primary);
+  color: #16a085;
   border-bottom-color: currentColor;
 }
 
@@ -202,3 +202,26 @@
     opacity: 0;
   }
 }
+
+.logoamadodedios{
+  text-decoration:none;
+}
+.logoamadodedios p{
+  font-size: 16px;
+  color: #192229;
+  margin: auto;
+}
+.dark .logoamadodedios p{
+  font-size: 16px;
+  color: #FBFBFE;
+  margin: auto;
+}
+
+  .logoamadodedios .dios{
+    padding: 5px;
+    border-radius: 5px;
+    background: #16a085;
+    color: #FBFBFE;
+    margin: auto;
+   
+  }
